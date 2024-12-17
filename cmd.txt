@@ -1,0 +1,1317 @@
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ git config --global user.name "SachinRV18"
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ git config --global user.email "sachinrv1999@gmail.com"
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ git config --global --list
+user.name=SachinRV18
+user.email=sachinrv1999@gmail.com
+difftool.sourcetree.cmd=''
+mergetool.sourcetree.cmd=''
+mergetool.sourcetree.trustexitcode=true
+credential.helperselector.selected=manager
+core.autocrlf=true
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+credential.usehttppath=true
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ ls -al ~/.ss
+ls: cannot access '/c/Users/SachinRakundi/.ss': No such file or directory
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ ssh-keygen -t ed25519 -C "sachinrv1999@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/SachinRakundi/.ssh/id_ed25519):
+Created directory '/c/Users/SachinRakundi/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/SachinRakundi/.ssh/id_ed25519
+Your public key has been saved in /c/Users/SachinRakundi/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:Bye92+Cw/sAa/Bsc6oKHxTAZt/8Lj8eFzs4F+T9ub1Q sachinrv1999@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|                 |
+|  . .    .       |
+|   + .  o o      |
+|  + .    = .    E|
+|   + .  S.+    . |
+|    o..+.O.+  .  |
+|   +  ==*.= ..   |
+|  o o. X*+ .o .  |
+|   . .+oO+.oo+.  |
++----[SHA256]-----+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ clip < ~/.ssh/id_ed25519.pub
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ ssh -T git@github.com
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi SachinRV18! You've successfully authenticated, but GitHub does not provide shell access.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ pwd
+/c/Users/SachinRakundi
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ cd D
+bash: cd: D: No such file or directory
+
+AzureAD+SachinRakundi@SachinRV MINGW64 ~
+$ cd ..
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /c/Users
+$ pwd
+/c/Users
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /c/Users
+$ cd ..
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /c
+$ cd ..
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ pwd
+/
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ D:
+bash: D:: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ D:
+bash: D:: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ D:
+cd temp
+bash: D:: command not found
+bash: cd: temp: No such file or directory
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ pwd
+/
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ cd /d d:Sachin
+bash: cd: too many arguments
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /
+$ cd d:Sachin
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin
+$ pwd
+/d/Sachin
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin
+$ li
+bash: li: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin
+$ cd VersionControl/
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl
+$ $touch Readme.md
+bash: Readme.md: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl
+$ git init
+Initialized empty Git repository in D:/Sachin/VersionControl/.git/
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ $touch Readme.md
+bash: Readme.md: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ touch Readme.md
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ $ git status
+bash: $: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "First commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add Readme.md
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "First commit"
+[master (root-commit) f439f4e] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Readme.md
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset HEAD~1
+fatal: ambiguous argument 'HEAD~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset master
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset --hard
+HEAD is now at f439f4e First commit
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^[[200~git status
+bash: $'\E[200~git': command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git clean -fxd
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset HEAD~1
+fatal: ambiguous argument 'HEAD~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git log
+commit f439f4eba49a2e2eef12dd9aae04b0ded5c72e1e (HEAD -> master)
+Author: SachinRV18 <sachinrv1999@gmail.com>
+Date:   Tue Dec 17 15:59:21 2024 +0530
+
+    First commit
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reflog
+f439f4e (HEAD -> master) HEAD@{0}: reset: moving to HEAD
+f439f4e (HEAD -> master) HEAD@{1}: reset: moving to master
+f439f4e (HEAD -> master) HEAD@{2}: commit (initial): First commit
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset --soft HEAD^
+fatal: ambiguous argument 'HEAD^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset --hard HEAD~1
+fatal: ambiguous argument 'HEAD~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ rm -rf .git
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl
+$ git init
+Initialized empty Git repository in D:/Sachin/VersionControl/.git/
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ touch Readme.md
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add .
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "First commit"
+[master (root-commit) ec11c69] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Readme.md
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ touch notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   notes.txt
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "Second commit"
+[master dab7afe] Second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset HEAD~1
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git remote -v
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git remote add origin git@github.com:SachinRV18/VersionControl.git
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git remote -v
+origin  git@github.com:SachinRV18/VersionControl.git (fetch)
+origin  git@github.com:SachinRV18/VersionControl.git (push)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 107.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/SachinRV18/VersionControl/pull/new/master
+remote:
+To github.com:SachinRV18/VersionControl.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "added notes.txt"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "added notes.txt"
+[master 50f7a36] added notes.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 252 bytes | 252.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:SachinRV18/VersionControl.git
+   ec11c69..50f7a36  master -> master
+branch 'master' set up to track 'origin/master'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:SachinRV18/VersionControl.git'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git diff
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git checkout .
+Updated 0 paths from the index
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ $ git log
+bash: $: command not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git log
+commit 50f7a36473da3f296a8c86f7f3ec74728fe2fa2d (HEAD -> master, origin/master)
+Author: SachinRV18 <sachinrv1999@gmail.com>
+Date:   Tue Dec 17 16:13:53 2024 +0530
+
+    added notes.txt
+
+commit ec11c69ca79e3a22a6df8036896afb7517fb9d2f
+Author: SachinRV18 <sachinrv1999@gmail.com>
+Date:   Tue Dec 17 16:08:52 2024 +0530
+
+    First commit
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git clone git@github.com:SachinRV18/Mario-blog.git
+Cloning into 'Mario-blog'...
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 37 (delta 5), reused 34 (delta 5), pack-reused 0 (from 0)
+Receiving objects: 100% (37/37), 4.67 MiB | 2.45 MiB/s, done.
+Resolving deltas: 100% (5/5), done.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ touch add.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Mario-blog/
+        add.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ cd Mario-blog/
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ touch add.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        add.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git add add.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   add.txt
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git commit -m "added add.txt"
+[main 1dbe9aa] added add.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 add.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:SachinRV18/Mario-blog.git
+   5032102..1dbe9aa  main -> main
+branch 'main' set up to track 'origin/main'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ git pull git@github.com:SachinRV18/VersionControl.git
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 915 bytes | 4.00 KiB/s, done.
+From github.com:SachinRV18/VersionControl
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl/Mario-blog (main)
+$ cd ..
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Mario-blog/
+        add.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git pull git@github.com:SachinRV18/VersionControl.git
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 915 bytes | 5.00 KiB/s, done.
+From github.com:SachinRV18/VersionControl
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ touch .gitignore
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ touch .sachin
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .sachin
+        Mario-blog/
+        add.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        add.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add .
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   add.txt
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git reset HEAD~1
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        add.txt
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add add.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+\On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   add.txt
+        new file:   notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "added add.txt and notes.txt"
+[master 5d4688c] added add.txt and notes.txt
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 add.txt
+ create mode 100644 notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git push origin master
+To github.com:SachinRV18/VersionControl.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'github.com:SachinRV18/VersionControl.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git pull
+From github.com:SachinRV18/VersionControl
+ * [new branch]      main       -> origin/main
+Merge made by the 'ort' strategy.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "added add.txt"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 427 bytes | 427.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:SachinRV18/VersionControl.git
+   50f7a36..fa3e5cc  master -> master
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git add add.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git  status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git commit -m "added add.txt"
+[master 5478019] added add.txt
+ 1 file changed, 1 insertion(+)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:SachinRV18/VersionControl.git
+   fa3e5cc..5478019  master -> master
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git branch
+* master
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (master)
+$ git checkout main
+Switched to a new branch 'main'
+branch 'main' set up to track 'origin/main'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git merge master
+fatal: refusing to merge unrelated histories
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ ^C
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git merge master --allow-unrelated-histories
+Merge made by the 'ort' strategy.
+ Readme.md | 0
+ add.txt   | 1 +
+ notes.txt | 0
+ 3 files changed, 1 insertion(+)
+ create mode 100644 Readme.md
+ create mode 100644 add.txt
+ create mode 100644 notes.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git merge master
+Already up to date.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git checkout main
+Already on 'main'
+M       README.md
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git merge master --allow-unrelated-histories
+Already up to date.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git commit
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 363 bytes | 363.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:SachinRV18/VersionControl.git
+   1f888ce..322a36d  main -> main
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git branch -d master
+Deleted branch master (was 5478019).
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git push origin --delete master
+To github.com:SachinRV18/VersionControl.git
+ - [deleted]         master
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git checkout -b feature-branch
+Switched to a new branch 'feature-branch'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git branch
+* feature-branch
+  main
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git add .
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git push origin feature-branch
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature-branch' on GitHub by visiting:
+remote:      https://github.com/SachinRV18/VersionControl/pull/new/feature-branch
+remote:
+To github.com:SachinRV18/VersionControl.git
+ * [new branch]      feature-branch -> feature-branch
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ touch sampleFileadding.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sampleFileadding.txt
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git add sampleFileadding.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git commit -m "added sample file"
+[feature-branch e909ed7] added sample file
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 sampleFileadding.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git push origin feature-branch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:SachinRV18/VersionControl.git
+   322a36d..e909ed7  feature-branch -> feature-branch
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git checkout main
+Switched to branch 'main'
+M       README.md
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git checkout main
+Already on 'main'
+M       README.md
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git merge feature-branch
+Updating 322a36d..e909ed7
+Fast-forward
+ .gitignore           | 1 +
+ sampleFileadding.txt | 0
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 sampleFileadding.txt
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:SachinRV18/VersionControl.git
+   322a36d..e909ed7  main -> main
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git branch -d feature-branch
+Deleted branch feature-branch (was e909ed7).
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git push origin --delete feature-branch
+To github.com:SachinRV18/VersionControl.git
+ - [deleted]         feature-branch
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git branch
+* main
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git branch -d feature-branch
+error: branch 'feature-branch' not found
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git checkout -b feature-branch
+Switched to a new branch 'feature-branch'
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ touch index.html
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git add .
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git commit -m "added index.html"
+[feature-branch d65ece4] added index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git push origin feature-branch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 246 bytes | 246.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feature-branch' on GitHub by visiting:
+remote:      https://github.com/SachinRV18/VersionControl/pull/new/feature-branch
+remote:
+To github.com:SachinRV18/VersionControl.git
+ * [new branch]      feature-branch -> feature-branch
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git status
+On branch feature-branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (feature-branch)
+$ git checkout main
+Switched to branch 'main'
+M       README.md
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git branch -d feature-branch
+error: the branch 'feature-branch' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D feature-branch'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git merge feature-branch
+Updating e909ed7..d65ece4
+Fast-forward
+ index.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git branch -d feature-branch
+Deleted branch feature-branch (was d65ece4).
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$ git push origin --delete feature-branch
+To github.com:SachinRV18/VersionControl.git
+ - [deleted]         feature-branch
+
+AzureAD+SachinRakundi@SachinRV MINGW64 /d/Sachin/VersionControl (main)
+$
