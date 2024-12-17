@@ -1,0 +1,113 @@
+Version Control: Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+Git is a version-control system for tracking changes in computer files and coordinating work on those files among multiple people. Git is a Distributed Version Control System.
+
+A repository a.k.a. repo is nothing but a collection of source code.
+
+There are four fundamental elements in the Git Workflow.
+Working Directory, Staging Area, Local Repository and Remote Repository.
+
+If you consider a file in your Working Directory, it can be in three possible states.
+
+It can be staged. Which means the files with the updated changes are marked to be committed to the local repository but not yet committed.
+It can be modified. Which means the files with the updated changes are not yet stored in the local repository.
+It can be committed. Which means that the changes you made to your file are safely stored in the local repository.
+
+
+git add is a command used to add a file that is in the working directory to the staging area.
+git commit is a command used to add all files that are staged to the local repository.
+git push is a command used to add all committed files in the local repository to the remote repository. So in the remote repository, all files and changes will be visible to anyone with access to the remote repository.
+git fetch is a command used to get files from the remote repository to the local repository but not into the working directory.
+git merge is a command used to get the files from the local repository into the working directory.
+git pull is command used to get files from the remote repository directly into the working directory. It is equivalent to a git fetch and a git merge.
+
+$ git config --global user.name "YOUR_USERNAME"
+
+$ git config --global user.email "im_satoshi@musk.com"
+
+$ git config --global --list # To check the info you just provided
+
+SSH protocol, you can connect and authenticate to remote servers and services. 
+
+With SSH keys, you can connect to GitHub without supplying your username or password at each visit.
+
+
+Initialize Git: 
+$ touch README.md    # To create a README file for the repository
+$ git init           # Initiates an empty git repository
+
+Add files to the Staging Area for commit:
+$ git add .  
+# Adds all the files in the local repository and stages them for commit
+
+OR if you want to add a specific file
+
+$ git add README.md 
+# To add a specific file
+
+Before we commit let’s see what files are staged:
+$ git status # Lists all new or modified files to be committed
+
+
+Commit Changes you made to your Git Repo:
+$ git commit -m "First commit"
+# The message in the " " is given so that the other users can read the message and see what changes you made
+
+-m: This flag tells Git that you are specifying a commit message inline, without opening an external text editor.
+If you don't use the -m flag, Git will open the default text editor (usually Vim or Nano, depending on your settings), and you can then write your commit message there.
+
+Uncommit Changes you just made to your Git Repo:
+Now suppose you just made some error in your code or placed an unwanted file inside the repository, you can unstage the files you just added using:
+
+$ git reset HEAD~1
+# Remove the most recent commit
+# Commit again!
+
+
+Add a remote origin and Push:
+Now each time you make changes in your files and save it, it won’t be automatically updated on GitHub. All the changes we made in the file are updated in the local repository. Now to update the changes to the master:
+
+$ git remote add origin remote_repository_URL
+# sets the new remote
+The git remote command lets you create, view, and delete connections to other repositories.
+
+$ git remote -v
+# List the remote connections you have to other repositories.
+The git remote -v command lists the URLs of the remote connections you have to other repositories.
+
+$ git push -u origin master # pushes changes to origin
+Now the git push command pushes the changes in your local repository up to the remote repository you specified as the origin.
+
+Revert back to the last committed version to the Git Repo:
+Now you can choose to revert back to the last committed version by entering:
+
+$ git checkout .
+
+OR for a specific file
+
+$ git checkout -- <filename>
+
+View Commit History:
+You can use the git log command to see the history of commit you made to your files:
+
+$ git log
+
+Cloning a Git Repo:
+Locate to the directory you want to clone the repo. Copy the link of the repository you want and enter the following:
+
+$ git clone remote_repository_URL
+
+Pushing Changes to the Git Repo:
+Now you can work on the files you want and commit to changes locally. If you want to push changes to that repository you either have to be added as a collaborator for the repository or you have create something known as pull request. Go and check out how to do one here and give me a pull request with your code file.
+
+$ git pull origin master
+
+.gitignore
+So what is it?
+
+.gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
+
+ex: /*.cmake
+
+
+
